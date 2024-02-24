@@ -1,0 +1,22 @@
+spring:
+  application.name: chat-service
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+  config:
+    import: optional:configserver:http://localhost:8888
+
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5433/studs
+    username: fost
+    password: fost
+
+  flyway:
+    url: jdbc:postgresql://localhost:5433/studs
+    user: fost
+    password: fost
+    baseline-on-migrate: true
+
+eureka.client.service-url:
+  defaultZone: http://localhost:8761/eureka/
+
+server.port: 8082

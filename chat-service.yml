@@ -4,12 +4,12 @@ spring:
     property-naming-strategy: SNAKE_CASE
 
   r2dbc:
-    url: r2dbc:postgresql://localhost:5433/studs
+    url: r2dbc:postgresql://localhost:5432/studs
     username: fost
     password: fost
 
   flyway:
-    url: jdbc:postgresql://localhost:5433/studs
+    url: jdbc:postgresql://localhost:5432/studs
     user: fost
     password: fost
     baseline-on-migrate: true

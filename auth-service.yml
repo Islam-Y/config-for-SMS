@@ -33,4 +33,8 @@ resilience4j:
         sliding-window-size: 10
         sliding-window-type: COUNT_BASED
 
+springdoc:
+  api-docs.path: /api
+  swagger-ui.path: /swagger.html
+
 server.port: 8081

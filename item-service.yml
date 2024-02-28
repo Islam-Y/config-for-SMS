@@ -49,4 +49,8 @@ resilience4j:
 kafka:
   bootstrap-servers: localhost:9092
 
+springdoc:
+  api-docs.path: /api
+  swagger-ui.path: /swagger.html
+
 server.port: 8084

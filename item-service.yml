@@ -4,7 +4,7 @@ spring:
     property-naming-strategy: SNAKE_CASE
 
   datasource:
-    url: jdbc:postgresql://localhost:5433/studs
+    url: jdbc:postgresql://localhost:5432/studs
     username: fost
     password: fost
     driver-class-name: org.postgresql.Driver
